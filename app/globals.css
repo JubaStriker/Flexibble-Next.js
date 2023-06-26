@@ -31,7 +31,7 @@ body {
 }
 
 .paddings {
-    @apply lg: px-20 py-6 px-5;
+    @apply lg:px-20 py-6 px-5;
 }
 
 ::-webkit-scrollbar {
@@ -45,7 +45,7 @@ body {
 }
 
 .modal-head-text {
-    @apply md: text-5xl text-3xl font-extrabold text-left max-w-5xl w-full;
+    @apply md:text-5xl text-3xl font-extrabold text-left max-w-5xl w-full;
 }
 
 .no-result-text {
@@ -54,7 +54,7 @@ body {
 
 /* Project Details */
 .user-actions_section {
-    @apply fixed max-md: hidden flex gap-4 flex-col right-10 top-20;
+    @apply fixed max-md:hidden flex gap-4 flex-col right-10 top-20;
 }
 
 .user-info {
@@ -63,7 +63,7 @@ body {
 
 /* Home */
 .projects-grid {
-    @apply grid xl: grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-10 mt-10 w-full;
+    @apply grid xl:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-10 mt-10 w-full;
 }
 
 /* Project Actions */
@@ -72,7 +72,7 @@ body {
 }
 
 .delete-action_btn {
-    @apply p-3 text-gray-100 hover: bg-red-600 rounded-lg text-sm font-medium;
+    @apply p-3 text-gray-100 hover:bg-red-600 rounded-lg text-sm font-medium;
 }
 
 /* Related Project Card */
@@ -85,7 +85,7 @@ body {
 }
 
 .related_projects-grid {
-    @apply grid xl: grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-8 mt-5;
+    @apply grid xl:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-8 mt-5;
 }
 
 /* Custom Menu */
@@ -94,11 +94,11 @@ body {
 }
 
 .custom_menu-items {
-    @apply flex-col absolute left-0 mt-2 xs: min-w-[300px] w-fit max-h-64 origin-top-right rounded-xl bg-white border border-nav-border shadow-menu overflow-y-auto;
+    @apply flex-col absolute left-0 mt-2 xs:min-w-[300px] w-fit max-h-64 origin-top-right rounded-xl bg-white border border-nav-border shadow-menu overflow-y-auto;
 }
 
 .custom_menu-item {
-    @apply text-left w-full px-5 py-2 text-sm hover: bg-light-white-100 self-start whitespace-nowrap capitalize;
+    @apply text-left w-full px-5 py-2 text-sm hover:bg-light-white-100 self-start whitespace-nowrap capitalize;
 }
 
 /* Footer */
@@ -107,7 +107,7 @@ body {
 }
 
 .footer_copyright {
-    @apply max-sm: flex-col w-full text-sm font-normal;
+    @apply max-sm:flex-col w-full text-sm font-normal;
 }
 
 .footer_column {
@@ -125,7 +125,7 @@ body {
 }
 
 .modal_wrapper {
-    @apply flex justify-start items-center flex-col absolute h-[95%] w-full bottom-0 bg-white rounded-t-3xl lg: px-40 px-8 pt-14 pb-72 overflow-auto;
+    @apply flex justify-start items-center flex-col absolute h-[95%] w-full bottom-0 bg-white rounded-t-3xl lg:px-40 px-8 pt-14 pb-72 overflow-auto;
 }
 
 /* Navbar */
@@ -135,7 +135,7 @@ body {
 
 /* Profile Menu */
 .profile_menu-items {
-    @apply flex-col absolute right-1/2 translate-x-1/2 mt-3 p-7 sm: min-w-[300px] min-w-max rounded-xl bg-white border border-nav-border shadow-menu;
+    @apply flex-col absolute right-1/2 translate-x-1/2 mt-3 p-7 sm:min-w-[300px] min-w-max rounded-xl bg-white border border-nav-border shadow-menu;
 }
 
 /* Profile Card */
@@ -145,11 +145,11 @@ body {
 
 /* Project Form */
 .form {
-    @apply flex-col w-full lg: pt-24 pt-12 gap-10 text-lg max-w-5xl mx-auto;
+    @apply flex-col w-full lg:pt-24 pt-12 gap-10 text-lg max-w-5xl mx-auto;
 }
 
 .form_image-container {
-    @apply w-full lg: min-h-[400px] min-h-[200px] relative;
+    @apply w-full lg:min-h-[400px] min-h-[200px] relative;
 }
 
 .form_image-label {
@@ -162,5 +162,5 @@ body {
 
 /* Profile Projects */
 .profile_projects {
-    @apply grid xl: grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-8 mt-5;
+    @apply grid xl:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-8 mt-5;
 }
