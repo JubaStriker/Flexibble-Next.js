@@ -6,7 +6,7 @@ import AuthProvider from './AuthProvider';
 
 const Navbar = () => {
 
-    const session = {};
+    const session = false;
 
     return (
         <nav className='flexBetween navbar'>
@@ -30,10 +30,13 @@ const Navbar = () => {
             </div>
 
             <div className='flexCenter gap-4'>
-                {session ? <>
-                    User Photo
+                {session ?
+                    <>
+                        User Photo
 
-                    <Link href='/create-project'>Share work</Link>                </> :
+                        <Link href='/create-project'>Share work</Link>
+                    </>
+                    :
                     <AuthProvider />}
             </div>
         </nav>

@@ -1,3 +1,4 @@
+
 import { useEffect, useState } from 'react';
 import { getProviders, signIn } from 'next-auth/react';
 
@@ -21,7 +22,11 @@ const AuthProvider = () => {
             const res: any = await getProviders();
             setProviders(res)
         }
+
+        fetchProviders()
     }, [])
+
+    console.log("Providers: ", providers)
 
     if (providers) {
         return <div>
@@ -31,4 +36,3 @@ const AuthProvider = () => {
     }
 };
 
-export default AuthProvider;
