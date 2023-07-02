@@ -17,6 +17,17 @@ const AuthProvider = () => {
 
     const [providers, setProviders] = useState<Providers | null>(null);
 
+
+    useEffect(() => {
+        const fetchProviders = async () => {
+            const res: any = await getProviders();
+            console.log(res);
+
+            setProviders(res);
+        }
+        fetchProviders();
+    }, [])
+
     if (providers) {
         return (
             <div>
