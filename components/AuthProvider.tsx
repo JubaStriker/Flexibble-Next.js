@@ -17,11 +17,13 @@ const AuthProvider = () => {
 
     const [providers, setProviders] = useState<Providers | null>(null);
 
+    console.log(process.env.GOOGLE_CLIENT_ID, "ID")
+
 
     useEffect(() => {
         const fetchProviders = async () => {
             const res: any = await getProviders();
-            console.log(res);
+            console.log("Response", res);
 
             setProviders(res);
         }
