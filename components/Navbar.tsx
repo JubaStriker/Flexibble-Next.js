@@ -4,9 +4,10 @@ import Image from 'next/image';
 import { NavLinks } from '@/constants';
 import AuthProvider from './AuthProvider';
 
+
 const Navbar = () => {
 
-    const session = false;
+    const session = {};
 
     return (
         <nav className='flexBetween navbar'>
